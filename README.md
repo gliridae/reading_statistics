@@ -1,0 +1,1 @@
+Small project written in Python to manage SQLite database with book statistics. Meant as a means to learn Python and experiment with SQL while making something useful to me.

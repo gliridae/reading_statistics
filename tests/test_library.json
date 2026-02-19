@@ -1,0 +1,69 @@
+{
+  "books": [
+    {
+      "author_name": "Andy Weir",
+      "series_name": "The Martian",
+      "series_index": 1,
+      "isbn": 9780804139021,
+      "title": "The Martian",
+      "chapters": 26,
+      "pages": 384,
+      "released": "2011-09-27",
+      "finished": "20XX",
+      "speed": 0,
+      "time": 0.0
+    },
+    {
+      "author_name": "Andy Weir",
+      "series_name": "Artemis",
+      "series_index": 1,
+      "isbn": 9780553448122,
+      "title": "Artemis",
+      "chapters": 17,
+      "pages": 305,
+      "released": "2017-11-14",
+      "finished": "2023-06-20",
+      "speed": null,
+      "time": null
+    },
+    {
+      "author_name": "Andy Weir",
+      "series_name": "Project Hail Mary",
+      "series_index": 1,
+      "isbn": 9780593135204,
+      "title": "Project Hail Mary",
+      "chapters": 30,
+      "pages": 476,
+      "released": "2021-05-04",
+      "finished": "2023-08-22",
+      "speed": 169,
+      "time": 15.06
+    },
+    {
+      "author_name": "Kit Frick",
+      "series_name": null,
+      "series_index": null,
+      "isbn": null,
+      "title": null,
+      "chapters": null,
+      "pages": null,
+      "released": null,
+      "finished": null,
+      "speed": null,
+      "time": null
+    },
+    {
+      "author_name": "Hugh Howey",
+      "series_name": "Silo",
+      "series_index": null,
+      "isbn": null,
+      "title": null,
+      "chapters": null,
+      "pages": null,
+      "released": null,
+      "finished": null,
+      "speed": null,
+      "time": null
+    }
+  ]
+}

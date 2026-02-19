@@ -1,0 +1,158 @@
+{
+  "title": "Reading Statistics",
+  "type": "menu",
+  "subtitle": "Choose an option...",
+  "options": [
+    {
+      "title": "Initial Setup",
+      "type": "menu",
+      "subtitle": "Choose an option...",
+      "options": [
+        {
+          "title": "Create tables",
+          "type": "command",
+          "command": [
+            "clear_terminal()",
+            "database_setup()",
+            "press_enter()",
+            "curses.initscr()"
+          ]
+        },
+        {
+          "title": "Load books from json",
+          "type": "command",
+          "command": [
+            "clear_terminal()",
+            "load_json(LIBRARY_LOCATION)",
+            "press_enter()",
+            "curses.initscr()"
+          ]
+        },
+        {
+          "title": "Create views",
+          "type": "command",
+          "command": [
+            "clear_terminal()",
+            "views_setup(VIEWS_LOCATION)",
+            "press_enter()",
+            "curses.initscr()"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Add a book",
+      "type": "command",
+      "command": [
+        "clear_terminal()",
+        "add_a_book()",
+        "press_enter()",
+        "curses.initscr()"
+      ]
+    },
+    {
+      "title": "Get data",
+      "type": "command",
+      "command": [
+        "clear_terminal()",
+        "get_books()",
+        "press_enter()",
+        "curses.initscr()"
+      ]
+    },
+    {
+      "title": "Update data",
+      "type": "menu",
+      "subtitle": "Choose an option...",
+      "options": [
+        {
+          "title": "Update author",
+          "type": "command",
+          "command": [
+            "clear_terminal()",
+            "update_author()",
+            "press_enter()",
+            "curses.initscr()"
+          ]
+        },
+        {
+          "title": "Update series",
+          "type": "command",
+          "command": [
+            "clear_terminal()",
+            "update_series()",
+            "press_enter()",
+            "curses.initscr()"
+          ]
+        },
+        {
+          "title": "Update book",
+          "type": "command",
+          "command": [
+            "clear_terminal()",
+            "update_book()",
+            "press_enter()",
+            "curses.initscr()"
+          ]
+        },
+        {
+          "title": "Update statistics",
+          "type": "command",
+          "command": [
+            "clear_terminal()",
+            "update_statistics()",
+            "press_enter()",
+            "curses.initscr()"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Delete data",
+      "type": "menu",
+      "subtitle": "Choose an option...",
+      "options": [
+        {
+          "title": "Delete author",
+          "type": "command",
+          "command": [
+            "clear_terminal()",
+            "delete_author()",
+            "press_enter()",
+            "curses.initscr()"
+          ]
+        },
+        {
+          "title": "Delete series",
+          "type": "command",
+          "command": [
+            "clear_terminal()",
+            "delete_series()",
+            "press_enter()",
+            "curses.initscr()"
+          ]
+        },
+        {
+          "title": "Delete book",
+          "type": "command",
+          "command": [
+            "clear_terminal()",
+            "delete_book()",
+            "press_enter()",
+            "curses.initscr()"
+          ]
+        },
+        {
+          "title": "Delete statistics",
+          "type": "command",
+          "command": [
+            "clear_terminal()",
+            "delete_statistics()",
+            "press_enter()",
+            "curses.initscr()"
+          ]
+        }
+      ]
+    }
+  ]
+}
